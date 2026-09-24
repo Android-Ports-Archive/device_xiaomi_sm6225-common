@@ -14,8 +14,6 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 RELAX_USES_LIBRARY_CHECK := true
 
-# Inherit from proprietary files for miuicamera
--include device/xiaomi/miuicamera-sapphire/BoardConfig.mk
 
 # A/B
 AB_OTA_UPDATER := true
@@ -143,7 +141,6 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
--include vendor/infinity/config/BoardConfigReservedSize.mk
 
 # Platform
 BOARD_USES_QCOM_HARDWARE := true
