@@ -456,10 +456,6 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon
 endif
 
-# Overlays Lineage
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay-infinity
-
 # Device-specific settings
  PRODUCT_PACKAGES += \
      XiaomiParts
