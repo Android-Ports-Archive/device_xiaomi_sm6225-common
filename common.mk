@@ -151,8 +151,6 @@ PRODUCT_PACKAGES += \
     charger_res_images \
     libsuspend
 
-# Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
 
 # DebugFS
 PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
